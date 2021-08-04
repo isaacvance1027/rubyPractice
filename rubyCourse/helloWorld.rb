@@ -31,6 +31,8 @@ number = gets.to_i
 
 if number%5 == 0
     puts "Your number is a multiple of 5\n"
+elsif number%2 == 0
+    puts "Your number is even\n"
 else  
-    puts "Your number is NOT a multiple of 5\n"
+    puts "Your ODD number is NOT a multiple of 5\n"
 end
