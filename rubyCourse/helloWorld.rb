@@ -22,4 +22,15 @@ name = gets.chomp
 puts "\nHello " + name
 
 #interpolation
-puts "\nHelo #{name}, what's up?"
+puts "\nHelo #{name}, what's up?\n\n"
+
+
+#-----Math Basics------
+print "Enter a number: "
+number = gets.to_i
+
+if number%5 == 0
+    puts "Your number is a multiple of 5\n"
+else  
+    puts "Your number is NOT a multiple of 5\n"
+end
