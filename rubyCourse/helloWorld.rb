@@ -5,5 +5,21 @@ system "clear"
 puts "Hello World!\nLemmiwinks\n\n".downcase
 puts "Hello World!\nLemmiwinks\n\n".upcase
 puts "Hello World!\nLemmiwinks\n\n".capitalize
-puts "Hello World!\nLemmiwinks".reverse
+puts "\n\nHello World!\nLemmiwinks".reverse
 
+#-----Variable Basics------
+
+first_name = "Isaac"
+
+puts first_name
+
+#-----User Input basics----
+
+print "Enter your name: "
+
+name = gets.chomp
+
+puts "\nHello " + name
+
+#interpolation
+puts "\nHelo #{name}, what's up?"
