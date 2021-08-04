@@ -25,14 +25,21 @@ puts "\nHello " + name
 puts "\nHelo #{name}, what's up?\n\n"
 
 
-#-----Math Basics------
+#-----Conditional Math Basics------
 print "Enter a number: "
 number = gets.to_i
 
 if number%5 == 0
-    puts "Your number is a multiple of 5\n"
+    puts "#{number} is a multiple of 5\n"
 elsif number%2 == 0
-    puts "Your number is even\n"
+    puts "#{number} is even\n"
 else  
-    puts "Your ODD number is NOT a multiple of 5\n"
+    puts "#{number} is ODD and NOT a multiple of 5\n"
 end
+
+#------Array basics---------
+
+names = ["isaac", "tim", "test"]
+
+puts names[2]
+puts names.length
